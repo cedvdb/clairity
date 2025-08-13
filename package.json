@@ -1,0 +1,21 @@
+{
+  "name": "clairity",
+  "displayName": "Clairity",
+  "description": "an ai generated theme for optimal eye comfort",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Clairity Olive (light)",
+        "uiTheme": "vs",
+        "path": "./themes/clairity-olive-light-theme.json"
+      }
+    ]
+  }
+}
