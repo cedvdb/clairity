@@ -9,6 +9,7 @@
     "type": "git",
     "url": "https://github.com/cedvdb/clairity.git"
   },
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.102.0"
   },
