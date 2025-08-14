@@ -9,7 +9,6 @@
     "button.secondaryBackground": "#dde1c8",
     "button.secondaryForeground": "#283618",
     "button.secondaryHoverBackground": "#a1a58a",
-
     "editor.background": "#fefdf8",
     "editor.foreground": "#283618",
     "editorLineNumber.foreground": "#bcc49c",
@@ -17,38 +16,31 @@
     "editorCursor.foreground": "#283618",
     "editor.selectionBackground": "#c7d3b1bb",
     "editor.inactiveSelectionBackground": "#c7d3b133",
-
     "activityBar.background": "#e4e6d2",
     "activityBar.foreground": "#283618",
     "activityBar.inactiveForeground": "#606c38",
     "activityBarBadge.background": "#d88b5e",
     "activityBarBadge.foreground": "#fefdf8",
-
     "sideBar.background": "#f8f7f0",
     "sideBar.foreground": "#283618",
     "sideBarTitle.foreground": "#283618",
     "sideBarSectionHeader.background": "#f8f7f0",
     "sideBarSectionHeader.foreground": "#283618",
     "sideBar.border": "#c7d3b1",
-
     "statusBar.background": "#f6f5eb",
     "statusBar.foreground": "#283618",
     "statusBar.debuggingBackground": "#bc6c25",
     "statusBar.debuggingForeground": "#fefdf8",
-
     "tab.activeBackground": "#fefdf8",
     "tab.activeForeground": "#283618",
     "tab.inactiveBackground": "#f8f7f0",
     "tab.inactiveForeground": "#7d8566",
     "tab.border": "#c7d3b1",
-
     "panel.background": "#f8f7f0",
     "panel.border": "#c7d3b1",
-
     "badge.background": "#d88b5e",
     "badge.foreground": "#fefdf8",
-
-    "list.activeSelectionBackground": "#c7d3b1",  
+    "list.activeSelectionBackground": "#c7d3b1",
     "list.activeSelectionForeground": "#283618",
     "list.inactiveSelectionBackground": "#e5e9d6",
     "list.inactiveSelectionForeground": "#283618",
@@ -56,7 +48,6 @@
     "list.hoverForeground": "#283618",
     "list.focusOutline": "#00000000",
     "list.inactiveFocusOutline": "#00000000",
-
     "notifications.background": "#fefdf8",
     "notifications.foreground": "#283618",
     "notifications.border": "#c7d3b1",
@@ -65,13 +56,12 @@
     "notificationsWarningIcon.foreground": "#d88b5e",
     "notificationsInfoIcon.foreground": "#606c38",
     "notificationToast.border": "#c7d3b1",
-
     "editor.lineHighlightBackground": "#f6f4e966",
     "editor.selectionHighlightBackground": "#c7d3b166",
     "editorBracketHighlight.foreground1": "#d27a38",
     "editorBracketHighlight.foreground2": "#d88b5e",
     "editorBracketHighlight.foreground3": "#606c38",
-    "editorBracketHighlight.foreground4": "#c7d3b1",
+    "editorBracketHighlight.foreground4": "#8E7BB7",
     "editorBracketHighlight.foreground5": "#7d8566",
     "editorBracketHighlight.foreground6": "#283618",
     "editor.findMatchBackground": "#d88b5e44",
@@ -84,7 +74,7 @@
     },
     {
       "scope": "string",
-      "settings": { "foreground": "#d27a38", "fontStyle": "italic" }
+      "settings": { "foreground": "#606c38" }
     },
     {
       "scope": "constant.numeric",
@@ -136,13 +126,40 @@
     },
     {
       "scope": [
-        "meta.type.annotation"
+        "meta.parameters.ts entity.name.type.ts",
+        "meta.variable.declaration.ts entity.name.type.ts",
+        "meta.field.declaration.ts entity.name.type.ts",
+        "meta.return.type.ts entity.name.type.ts",
+        "meta.parameters.ts support.type.primitive.ts",
+        "meta.variable.declaration.ts support.type.primitive.ts",
+        "meta.field.declaration.ts support.type.primitive.ts",
+        "meta.return.type.ts support.type.primitive.ts",
+        "variable.language.this",
+        "variable.language.super"
       ],
-      "settings": { "foreground": "#5b8c6a" }
+      "settings": {
+        "foreground": "#5B8C6A"
+      }
     },
     {
       "scope": "storage.modifier",
       "settings": { "foreground": "#606C38", "fontStyle": "bold" }
+    },
+    {
+      "scope": "support.type.property-name.json",
+      "settings": { "foreground": "#8E7BB7" }
+    },
+    {
+      "scope": "string.quoted.double.json",
+      "settings": { "foreground": "#283618" }
+    },
+    {
+      "scope": "constant.numeric.json",
+      "settings": { "foreground": "#9C6644" }
+    },
+    {
+      "scope": "constant.language.json",
+      "settings": { "foreground": "#9C6644" }
     }
   ]
 }
