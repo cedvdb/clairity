@@ -84,8 +84,8 @@
       "scope": "variable",
       "settings": { "foreground": "#283618" }
     },
-        {
-      "scope": "meta.object-literal.key",
+    {
+      "scope": ["meta.object-literal.key", "variable.other.readwrite"],
       "settings": { "foreground": "#8E7BB7" }
     },
     {

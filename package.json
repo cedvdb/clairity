@@ -10,10 +10,23 @@
     "url": "https://github.com/cedvdb/clairity.git"
   },
   "engines": {
-    "vscode": "^1.103.0"
+    "vscode": "^1.102.0"
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "ai",
+    "dark",
+    "light",
+    "eye-friendly",
+    "eye-comfort",
+    "readable",
+    "accessible",
+    "programming",
+    "coding",
+    "developer"
   ],
   "contributes": {
     "themes": [

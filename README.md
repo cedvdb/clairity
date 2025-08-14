@@ -1,4 +1,13 @@
-# clairity README
+# clairity 
+
+![Screenshot](./screenshot.png)
+
+## Contribute
+
+Feel free to contribute, just clone the repository and press F5 to see the theme in action, then edit the corresponding theme file.
+
+Here is a good explanation video: https://www.youtube.com/watch?v=pGzssFNtWXw
+
 
 ## Working with Markdown
 
