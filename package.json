@@ -3,6 +3,12 @@
   "displayName": "Clairity",
   "description": "an ai generated theme for optimal eye comfort",
   "version": "0.0.1",
+  "publisher": "cedvdb",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cedvdb/clairity.git"
+  },
   "engines": {
     "vscode": "^1.103.0"
   },

@@ -84,6 +84,10 @@
       "scope": "variable",
       "settings": { "foreground": "#283618" }
     },
+        {
+      "scope": "meta.object-literal.key",
+      "settings": { "foreground": "#8E7BB7" }
+    },
     {
       "scope": "constant.language.undefined",
       "settings": { "foreground": "#8e7bb7" }
@@ -148,10 +152,6 @@
     {
       "scope": "support.type.property-name.json",
       "settings": { "foreground": "#8E7BB7" }
-    },
-    {
-      "scope": "string.quoted.double.json",
-      "settings": { "foreground": "#283618" }
     },
     {
       "scope": "constant.numeric.json",
