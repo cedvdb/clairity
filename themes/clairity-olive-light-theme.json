@@ -85,7 +85,7 @@
       "settings": { "foreground": "#283618" }
     },
     {
-      "scope": ["meta.object-literal.key", "variable.other.readwrite"],
+      "scope": ["meta.object-literal.key", "variable.other.readwrite", ],
       "settings": { "foreground": "#8E7BB7" }
     },
     {
@@ -97,7 +97,7 @@
       "settings": { "foreground": "#606c38", "fontStyle": "bold" }
     },
     {
-      "scope": "entity.name.function",
+      "scope": ["entity.name.function"],
       "settings": { "foreground": "#d27a38" }
     },
     {
@@ -105,7 +105,7 @@
       "settings": { "foreground": "#606c38", "fontStyle": "bold" }
     },
     {
-      "scope": ["entity.name.type", "support.class", "support.type"],
+      "scope": ["entity.name.type", "support.class", "support.type", "entity.name.tag"],
       "settings": { "foreground": "#5B8C6A" }
     },
     {
