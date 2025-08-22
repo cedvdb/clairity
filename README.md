@@ -9,6 +9,13 @@ Feel free to contribute, just clone the repository and press F5 to see the theme
 Here is a good explanation video: https://www.youtube.com/watch?v=pGzssFNtWXw
 
 
+## Update
+
+To update the theme
+
+`vsce publish patch`
+
+
 ## Working with Markdown
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:

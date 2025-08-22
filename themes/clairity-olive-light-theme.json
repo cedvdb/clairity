@@ -89,7 +89,7 @@
       "settings": { "foreground": "#8E7BB7" }
     },
     {
-      "scope": "constant.language.undefined",
+      "scope": ["constant.language.undefined", "constant.language.null", "keyword.operator.ternary"],
       "settings": { "foreground": "#8e7bb7" }
     },
     {
@@ -105,8 +105,8 @@
       "settings": { "foreground": "#606c38", "fontStyle": "bold" }
     },
     {
-      "scope": "entity.name.type",
-      "settings": { "foreground": "#283618" }
+      "scope": ["entity.name.type", "support.class", "support.type"],
+      "settings": { "foreground": "#5B8C6A" }
     },
     {
       "scope": "punctuation",
